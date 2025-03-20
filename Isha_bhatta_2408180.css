@@ -1,0 +1,195 @@
+/*Name: ISHA BHATTA
+STUDENT ID:2408180*/
+body {
+    /* background: url('https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); */
+    background: url('https://plus.unsplash.com/premium_photo-1668091148044-056cd744e64a?q=80&w=2090&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+
+
+}
+ /* Styling card div for displaying main weather data box */
+.card {
+    width: 100%;
+    max-width: 470px;
+    backdrop-filter: blur(30px);
+    border: 2px solid (255, 255, 255, .1);
+    border-radius: 16px;
+    color: #fff;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+/* Styling search bar */
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+
+.search input[type="text"] {
+    padding: 0.5em;
+    width: 80%;
+    max-width: 300px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Styling search button*/
+.search button {
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #6293c8;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Styling search button*/
+.main_icon {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.temp {
+    font-size: 2.3em;
+    margin-top: 0.5em;
+}
+
+.city {
+    font-size: 2.3em;
+    margin: 1em 0;
+    margin-top: -3%;
+}
+/* Styling class col */
+.col {
+    display: flex;
+    flex-direction: column; /* Keep the column direction for the individual .col divs */
+    flex: 1 1 30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    align-items: center;
+    min-height: 0px;
+}
+    
+.col i {
+    font-size: 25px;
+    margin-bottom: 0.5em;
+}
+
+.col div {
+    text-align: center;
+}
+
+.col p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Styling class weather details inside details */
+.details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+    flex-direction: row; /* Set to row to display items horizontally */
+    min-height: 0px;
+}
+
+/* Styling class date-time */
+.date-time {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+/* Styling id weather-data */
+#weather-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* Styling class weather-day */
+.weather-day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin: 10px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/*Adding Hover effect*/
+.weather-day:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+}
+/*Adding Hover effect*/
+.weather-icon {
+    width: 90px;
+    height:90px;
+    margin-bottom: 10px; /* Add margin for spacing between icon and date */
+}
+/*Styling class weather-details*/
+.weather-details {
+    flex-grow: 1;
+    text-align: center; /* Center align text */
+}
+/*styling the direct child <div>*/
+.weather-details > div {
+    margin-bottom: 8px;
+    font-size: 1em;
+    color: #fff;
+}
+/*styling each id in date-temp*/
+#date-temp-day-1,
+#date-temp-day-2,
+#date-temp-day-3,
+#date-temp-day-4,
+#date-temp-day-5,
+#date-temp-day-6,
+#date-temp-day-7 {
+    font-weight: bold;
+}
+
+/*styling class weather-data-heading*/
+.weather-data-heading {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/*styling class foot */
+.foot{
+    font-size: 0.8em;
+    color: rgb(4, 4, 4);
+    margin-top: 30px;
+}
+
+

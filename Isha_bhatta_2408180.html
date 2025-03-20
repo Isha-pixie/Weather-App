@@ -1,0 +1,132 @@
+<!--Name: ISHA BHATTA
+STUDENT ID:2408180-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!--for icons-->
+    <link rel="stylesheet" href="Isha_bhatta_2408180.css" />
+    <!-- Linking the css-->
+  </head>
+
+  <body>
+    <div class="card">
+      <!-- Main division Box -->
+
+      <div class="search">
+        <!-- Division to create Search Box -->
+        <input
+          type="text"
+          placeholder="Enter city name"
+          spellcheck="false"
+          value="Barasat"
+          id="search-txt"
+        />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <div class="cards">
+        <!-- Division to display weather data -->
+        <img
+          class="main_icon"
+          src="https://openweathermap.org/img/wn/10d@2x.png"
+          alt="Weather icon Loading"
+        />
+        <h1 class="temp"></h1>
+        <h2 class="city"></h2>
+        <p class="date-time"></p>
+      </div>
+
+      <div class="details">
+        <!-- Division to display weather data in details -->
+        <div class="col">
+          <p>Humidity</p>
+          <i class="fas fa-tint"></i>
+          <p class="humidity"></p>
+        </div>
+
+        <div class="col">
+          <p>Wind Speed</p>
+          <i class="fas fa-wind"></i>
+          <p class="wind"></p>
+        </div>
+
+        <div class="col">
+          <p>Pressure</p>
+          <i class="fas fa-compress-arrows-alt"></i>
+          <p class="pressure"></p>
+        </div>
+      </div>
+    </div>
+
+    <p class="weather-data-heading">Weather Data of Past Seven Days</p>
+
+    <div id="weather-data">
+      <!-- Division to display 7 days weather data of given city -->
+      <div class="weather-day">
+        <img class="weather-icon" id="icon-day-1" />
+        <div class="weather-details">
+          <div id="date-temp-day-1"></div>
+        </div>
+      </div>
+
+      <div class="weather-day">
+        <img class="weather-icon" id="icon-day-2" />
+        <div class="weather-details">
+          <div id="date-temp-day-2"></div>
+        </div>
+      </div>
+
+      <div class="weather-day">
+        <img class="weather-icon" id="icon-day-3" />
+        <div class="weather-details">
+          <div id="date-temp-day-3"></div>
+        </div>
+      </div>
+
+      <div class="weather-day">
+        <img class="weather-icon" id="icon-day-4" />
+        <div class="weather-details">
+          <div id="date-temp-day-4"></div>
+        </div>
+      </div>
+
+      <div class="weather-day">
+        <img class="weather-icon" id="icon-day-5" />
+        <div class="weather-details">
+          <div id="date-temp-day-5"></div>
+        </div>
+      </div>
+
+      <div class="weather-day">
+        <img class="weather-icon" id="icon-day-6" />
+        <div class="weather-details">
+          <div id="date-temp-day-6"></div>
+        </div>
+      </div>
+
+      <div class="weather-day">
+        <img class="weather-icon" id="icon-day-7" />
+        <div class="weather-details">
+          <div id="date-temp-day-7"></div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="foot">
+        &copy; 2024 Weather_App_Isha_Bhatta. All rights reserved.
+      </p>
+    </footer>
+    <!--footer for copyrights reserved notice-->
+
+    <script src="Isha_bhatta_2408180.js"></script>
+    <!-- Linking the javascript -->
+  </body>
+</html>
